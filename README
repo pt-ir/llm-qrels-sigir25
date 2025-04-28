@@ -1,0 +1,11 @@
+These are the prompts and qrels used for the experiments in Thomas et al., "System Comparison using Automated Generation
+of Relevance Judgements in Multiple Languages", SIGIR 2025.
+
+The *jinja2 files are the prompts (two sets of instructions times four languages, *except* v2 in Chinese for which we
+did not have translator availability). These were filled in with the (maybe translated) queries and documents, and fed
+to GPT4o (2024-05-13). The qrels files from the parsed output are in *qrels.
+
+Each file is named for the year (e.g. "neuclir24"), prompt version and language (e.g. "news1zh"), document language
+("rudocs"), and topic/query language ("entopics").
+
+Contact: pathom@microsoft.com.
